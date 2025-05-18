@@ -1,0 +1,36 @@
+{
+  "name": "rate-limiter",
+  "version": "1.0.0",
+  "description": "This repository demonstrates how to implement a Rate Limiter using time-window-based logic. It helps protect APIs from overuse by limiting how often a user or IP address can hit an endpoint within a given time frame.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kawaljain/rate-limiter.git"
+  },
+  "author": "Kawal Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kawaljain/rate-limiter/issues"
+  },
+  "keywords": [
+    "rate-limiter",
+    "express",
+    "api-rate-limit",
+    "nodejs",
+    "middleware",
+    "fixed-window",
+    "demo"
+  ],
+  "homepage": "https://github.com/kawaljain/rate-limiter#readme"
+}
