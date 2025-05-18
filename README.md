@@ -2,17 +2,6 @@
 
 This repository demonstrates how to implement a **Rate Limiter** using time-window-based logic. It helps protect APIs from overuse by limiting how often a user or IP address can hit an endpoint within a given time frame.
 
-## 📚 Blog Post
-
-Read the full explanation and implementation details here:  
-
-👉 [Building a Rate Limiter - My Blog on Hashnode](https://blog.kawaljain.com/building-a-scalable-chat-app)
-
-👉 [Building a Rate Limiter - My Blog on Medium](https://kawaljain.medium.com/building-a-scalable-chat-app-9fabdab2bd45)
-
-
----
-
 ## 🚀 Features
 
 - ⏳ Fixed and sliding window implementations
@@ -81,6 +70,12 @@ Send multiple requests using a tool like Postman or cURL to `http://localhost:{P
 * Public API rate limiting
 * Brute-force login protection
 * Fair usage enforcement
+
+---
+
+## 🏗️ Architecture diagram
+
+![ Rate Limiter Architecture](./rate-limiter.png)
 
 ---
 
